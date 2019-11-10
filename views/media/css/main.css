@@ -1,0 +1,129 @@
+body {font-family: Arial, Helvetica, sans-serif; background-color:#AFD275; margin:0; padding:0;}
+
+.home {
+    width: 80%;
+    margin:0 auto;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: 3px solid #AFD275;
+    outline-offset: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+.product-image {
+    width:100%;
+    height:auto;
+}
+
+.form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 2rem 0;
+    max-width: 600px;
+}
+.form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+}
+.form button {
+    background: #E7717D;
+    color:#fff;
+    font-weight:800;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+}
+.form button:hover {
+    background: #C2CAD0;
+    color: #E7717D;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+.error {
+    color: red;
+}
